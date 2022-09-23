@@ -1,0 +1,50 @@
+:root {
+  /* colors */
+  --pry-color: rgb(14%, 15%, 51%);
+  --sec-color: rgb(96%, 30%, 45%);
+  --extra: rgb(20%, 69%, 96%);
+  
+  /* fonts */
+  
+  /* spacing */
+  --side-padding: 2em;
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  max-width: 100%;
+  outline: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1rem;
+  color: #3e3e3e;
+}
+input {
+  display: block;
+  width: 100%;
+  caret-color: var(--sec-color);
+  background-color: inherit;
+}
+::placeholder {
+  font-weight: 200;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+header {
+  padding-inline: var(--side-padding);
+}
+aside {
+  padding-inline: var(--side-padding);
+}
+main {
+  padding-inline: var(--side-padding);
+}
+footer {
+  padding-inline: var(--side-padding);
+}
